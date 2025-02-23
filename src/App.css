@@ -1,0 +1,205 @@
+@import "tailwindcss";
+
+@media only screen and (max-width:1020px) and (min-width:850px) {
+  #card-body {
+    width: 25%;
+  }
+
+  nav {
+    width: 20%;
+  }
+
+  #detailimg {
+    width: 50%;
+  }
+
+  #detailcont {
+    width: 50%;
+  }
+
+}
+
+@media only screen and (max-width:850px) and (min-width:660px) {
+  #card-body {
+    width: 35%;
+  }
+
+  nav {
+    width: 25%;
+  }
+
+  #detailimg {
+    width: 50%;
+    height: 80%;
+  }
+
+  #detailcont {
+    height: 80%;
+    width: 50%;
+  }
+
+  #detailcont h1 {
+    font-size: 4vh;
+  }
+
+  #detailcont div {
+    display: flex;
+  }
+
+  #detailcont button {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+
+  #detailbox {
+    padding-top: 12vw;
+
+  }
+
+}
+
+@media only screen and (max-width:660px) and (min-width:600px) {
+  #card-body {
+    width: 40%;
+  }
+
+  nav {
+    width: 25%;
+  }
+
+  #shopsky {
+    font-size: 20px;
+    padding: 5px 15px;
+  }
+
+  #detailimg {
+    width: 80%;
+    margin: 0 auto;
+    height: 50%;
+  }
+
+  #detailcont {
+    height: 80%;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  #detailcont h1 {
+    font-size: 3vh;
+  }
+
+  #detailcont div {
+    display: flex;
+  }
+
+  #detailcont button {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+
+  #detailbox {
+    padding-top: 7vw;
+    flex-direction: column;
+
+  }
+
+  nav h1 {
+    font-size: 20px;
+  }
+
+  nav a {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  #bullets {
+    width: 10px;
+    height: 10px;
+
+  }
+
+  #loader {
+    width: 30px;
+    top: 10px;
+    left: 10px;
+  }
+
+  #card-body {
+    width: 90%;
+  }
+
+  #card-body p {
+    font-size: 13px;
+  }
+
+  #home {
+    padding: 2%;
+  }
+
+  nav {
+    width: 20vmax;
+  }
+
+  #shopsky {
+    font-size: 20px;
+    padding: 5px 2vw;
+  }
+
+  #ax-box {
+    width: 100%;
+    padding: 0 5px;
+  }
+
+  nav #ax {
+    margin-bottom: 10px;
+    font-size: 1.8vh;
+  }
+
+  nav h1 {
+    font-size: 20px;
+  }
+
+  #detailimg {
+    width: 80%;
+    margin: 0 auto;
+    height: 30%;
+  }
+
+  #detailcont {
+    height: fit-content;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #detailcont h1 {
+    font-size: 2.3vh;
+  }
+
+  #detailcont div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #detailcont button {
+    margin-top: 5px;
+    margin-bottom: 0;
+    width: 100%;
+    font-size: 12px;
+  }
+
+  #detailcont p {
+    font-size: 12px;
+  }
+
+  #detailbox {
+    padding-top: 7vw;
+    flex-direction: column;
+
+  }
+
+  nav h1 {
+    font-size: 20px;
+  }
+
+}
