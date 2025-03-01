@@ -1,6 +1,7 @@
 import axios from './Axios/Axios'
 import React, { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function Details() {
   
@@ -33,7 +34,7 @@ function Details() {
             <p className='text-[13px]'>{single.description}</p>
             <div>
             <button onClick={()=>{handleGoback()}} className='mr-4 cursor-pointer py-2 my-2 px-6 bg-blue-600 text-white rounded'>GO Back</button>
-            <button className=' cursor-pointer py-2 my-2 px-6 border-2 border-blue-600  text-blue-600 rounded'>ADD to Cart</button>
+            <Link to={`/details/${id}/order`} className=' cursor-pointer py-2 my-2 px-6 border-2 border-blue-600  text-blue-600 rounded'>Buy</Link>
             </div>
         </div>
     </div>

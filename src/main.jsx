@@ -5,10 +5,10 @@ import App from './App.jsx'
 import ProductContextWrapper from './components/context/ProductContextWrapper.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  // <StrictMode>
     <ProductContextWrapper>
 
     <App />
     </ProductContextWrapper>
-  </StrictMode>,
+  // </StrictMode>,
 )

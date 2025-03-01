@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 @media only screen and (max-width:1020px) and (min-width:850px) {
   #card-body {
     width: 25%;
@@ -15,6 +16,9 @@
 
   #detailcont {
     width: 50%;
+  }
+  #form{
+    padding: 10px 20px;
   }
 
 }
@@ -55,7 +59,21 @@
     padding-top: 12vw;
 
   }
-
+  #form{
+    padding: 20px;
+  }
+  #order-button{
+    padding: 10px 20px;
+  }
+  #form h3{
+    font-size: 13px;
+  }
+  #form h2{
+    font-size: 16px;
+  }
+  #form #first-hr{
+    margin-top: 40px;
+  }
 }
 
 @media only screen and (max-width:660px) and (min-width:600px) {
@@ -109,6 +127,22 @@
 
   nav a {
     font-size: 14px;
+  }
+  #form{
+    padding: 20px;
+  }
+  #order-button{
+    padding: 10px 20px;
+  }
+  #form h3{
+    font-size: 13px;
+  }
+  #form h2{
+    font-size: 16px;
+  }
+
+  #first-sec div{
+    padding-right: 0;
   }
 }
 
@@ -201,5 +235,70 @@
   nav h1 {
     font-size: 20px;
   }
+  #form{
+    padding: 20px;
+  }
+  #order-button{
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  #form h3{
+    font-size: 13px;
+  }
+  #form h2{
+    font-size: 16px;
+  }
+  #form p{
+    font-size: 14px;
+  }
+  
+  #first-sec div{
+    padding-right: 10px;
+  }
+  #qty-div{
+    flex-direction: column;
+  }
+  #price-details h1{
+    font-size: 17px;
+  }
+  #total-amount h1{
+    font-size: 18px;
+  }
+  #total-amount{
+    padding-bottom: 0;
+  }
+  #second-sec{
+    padding-bottom: 15px;
+  }
 
+}
+@media only screen and (max-width:480px) {
+
+#first-sec{
+  flex-direction: column;
+  align-items: center;
+}
+#first-sec img{
+  width: 80%;
+  height: 30vh;
+}
+  #price-details h1{
+    font-size: 17px;
+  }
+  #total-amount h1{
+    font-size: 18px;
+  }
+  #total-amount{
+    padding-bottom: 0;
+  }
+  #second-sec{
+   
+    padding:10px ;
+  }
+  #price-mid-4 p{
+    font-size: 13px;
+    text-align: right;
+
+  }
+  
 }
